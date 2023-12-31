@@ -1,5 +1,6 @@
 import noProjectImage from '../assets/no-projects.png'
 import Button from './Button'
+//function that just displays on the screen when no project has been selected, with a button to click to add a new project
 export default function NoProjectSelected({onStartAddProject}){
     return <div className="mt-24 text-center w-2/3">
         <img src={noProjectImage} alt="empty task list" className='w-16 h-16 object-contain mx-auto'/>
